@@ -1,0 +1,14 @@
+{
+  "name": "hlqs-homepage-chat-api",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "music-metadata": "^10.6.4"
+  }
+}
