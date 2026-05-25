@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HLQS 的个人小站</title>
+  <title>RoCinNaN-t 的个人小站</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -12,7 +12,7 @@
     <header class="site-header">
       <div class="header-inner">
         <div class="header-text">
-          <span class="site-badge">HLQS 的小窝</span>
+          <span class="site-badge">RoCinNaN-t 的小窝</span>
           <span class="site-sub">进来坐坐，聊聊天</span>
         </div>
         <span class="online-dot" title="在线">在线</span>
@@ -21,55 +21,79 @@
 
     <main class="main-layout">
     <div class="main-grid">
-      <!-- 左侧：个人资料 -->
-      <section class="panel profile-panel">
-        <div class="panel-title panel-title--profile">你好呀</div>
-        <div class="profile-card">
-          <div class="avatar-wrap">
-            <img id="avatarImg" src="assets/avatar.svg" alt="HLQS 头像" class="avatar" width="120" height="120">
-            <label class="avatar-upload-btn">
-              <input type="file" id="avatarInput" accept="image/jpeg,image/png,image/gif,image/webp" hidden>
-              更换头像
-            </label>
+      <!-- 左侧：信息栏 -->
+      <div class="main-left">
+        <!-- 个人资料 -->
+        <section class="panel profile-panel">
+          <div class="panel-title panel-title--profile">个人资料</div>
+          <div class="profile-card">
+            <div class="avatar-wrap">
+              <img id="avatarImg" src="assets/avatar.svg" alt="RoCinNaN-t 头像" class="avatar" width="120" height="120">
+              <label class="avatar-upload-btn">
+                <input type="file" id="avatarInput" accept="image/jpeg,image/png,image/gif,image/webp" hidden>
+                更换头像
+              </label>
+            </div>
+            <h1 class="name">RoCinNaN-t</h1>
+            <p class="tagline">我正在学习计算机网络，逆向工程和其他计算机知识</p>
           </div>
-          <h1 class="name">HLQS</h1>
-          <p class="tagline">我正在学习计算机网络，逆向工程和其他计算机知识</p>
-        </div>
 
-        <div class="info-box">
-          <h2 class="info-title">随便了解我一下</h2>
-          <table class="info-table">
-            <tr>
-              <th>身份</th>
-              <td>普通大学生</td>
-            </tr>
-            <tr>
-              <th>最近在忙</th>
-              <td>逆向工程实验、计算机网络 PJ、反编译器</td>
-            </tr>
-            <tr>
-              <th>兴趣</th>
-              <td>东方同人曲、游戏</td>
-            </tr>
-            <tr>
-              <th>特点</th>
-              <td>做题蛆，？！蛆蛆！？</td>
-            </tr>
-            <tr>
-              <th>联系</th>
-              <td>
-                <a href="mailto:pearcehlqs114@gmail.com">pearcehlqs114@gmail.com</a><br>
-                <a href="https://github.com/HLQS9" target="_blank" rel="noopener noreferrer">GitHub @HLQS9</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </section>
+          <div class="info-box">
+            <h2 class="info-title">基本信息</h2>
+            <table class="info-table">
+              <tr>
+                <th>身份</th>
+                <td>普通大学生</td>
+              </tr>
+              <tr>
+                <th>最近在忙</th>
+                <td>逆向工程、计算机网络 PJ、反编译器</td>
+              </tr>
+              <tr>
+                <th>兴趣</th>
+                <td>东方同人曲、游戏</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <!-- 作品展示 -->
+        <section class="panel projects-panel">
+          <div class="panel-title">作品展示</div>
+          <div class="projects-list">
+            <div class="project-item">
+              <a href="https://github.com/RoCinNaN-t/FDU_ICS_PJ" target="_blank" class="project-link">
+                <span class="project-name">FDU_ICS_PJ</span>
+                <p class="project-desc">复旦大学 ICS 课程 Project 实践</p>
+              </a>
+            </div>
+            <div class="project-item">
+              <a href="https://github.com/RoCinNaN-t/PoreDec" target="_blank" class="project-link">
+                <span class="project-name">PoreDec</span>
+                <p class="project-desc">基于逆向工程的二进制分析工具探索</p>
+              </a>
+            </div>
+          </div>
+        </section>
+
+        <!-- 联系方式 -->
+        <section class="panel contact-panel">
+          <div class="panel-title">找到我</div>
+          <div class="contact-methods">
+            <a href="mailto:pearcehlqs114@gmail.com" class="contact-item">
+              <span class="contact-icon">✉</span> 邮箱联系
+            </a>
+            <a href="https://github.com/RoCinNaN-t" target="_blank" class="contact-item">
+              <span class="contact-icon"></span> GitHub 主页
+            </a>
+          </div>
+        </section>
+      </div>
 
       <!-- 右侧：数字分身聊天 -->
       <section class="panel chat-panel">
         <div class="panel-title panel-title--chat">来跟我聊聊</div>
-        <p class="chat-intro">嗨～我是 HLQS 的数字分身，随便问点什么都可以。</p>
+        <p class="chat-intro">嗨～我是 RoCinNaN-t 的数字分身，随便问点什么都可以。</p>
 
         <div id="chatLog" class="chat-log" aria-live="polite"></div>
 

@@ -5,11 +5,11 @@
  */
 const TwinKnowledge = {
   identity: "普通大学生",
-  recent: "最近在搞逆向工程实验、计算机网络 PJ，还在实现一个反编译器",
-  exploring: "擅长方向还在摸索中，主要关心计算机网络和逆向",
+  recent: "最近在期末复习，比较忙",
+  exploring: "擅长方向是网络安全相关，每天都在研究这个",
   interests: "喜欢听东方同人曲、玩游戏，最近在玩月计的游戏",
   trait: "喜欢有趣的事情",
-  contact: "邮箱 pearcehlqs114@gmail.com，GitHub https://github.com/HLQS9",
+  contact: "邮箱 pearcehlqs114@gmail.com，GitHub https://github.com/RoCinNaN-t",
   highlights: [
     "复古 2010 互联网风的清爽蓝色小站",
     "有数字分身聊天区，可以随便问我问题",
@@ -37,31 +37,31 @@ const keywordRules = [
   },
   {
     keys: ["联系", "邮箱", "email", "github"],
-    reply: () => "找 HLQS 的话：" + TwinKnowledge.contact,
+    reply: () => "找 RoCinNaN-t 的话：" + TwinKnowledge.contact,
   },
   {
     keys: ["你好", "嗨", "hello", "hi", "在吗", "哈喽"],
     reply: () =>
-      "你好呀！欢迎来到 HLQS 的小站～我是他的数字分身，想问学习、兴趣或者这个站都可以！",
+      "你好呀！欢迎来到 RoCinNaN-t 的小站～我是他的数字分身，想问学习、兴趣或者这个站都可以！",
   },
   {
-    keys: ["名字", "你是谁", "叫什么", "hlqs"],
+    keys: ["名字", "你是谁", "叫什么", "hlqs", "rocinNaN-t"],
     reply: () =>
-      "我是 HLQS 的数字分身！真人 HLQS 正在学计算机网络和逆向工程，最近还在写反编译器呢。",
+      "我是 RoCinNaN-t 的数字分身！真人 RoCinNaN-t 正在学计算机网络和逆向工程，最近在期末复习呢。",
   },
   {
     keys: ["反编译", "逆向", "decompil", "实验"],
     reply: () =>
-      "HLQS 最近主要在做逆向相关的实验，还在实现一个反编译器，计算机网络那边也有个 PJ 在同时进行～",
+      "RoCinNaN-t 最近主要关注网络安全和逆向工程，之前做过一些实验，现在主要在复习期末考试～",
   },
   {
     keys: ["网络", "pj", "项目", "计网"],
-    reply: () => "计算机网络也是 HLQS 最近在学的方向之一，有个 PJ 正在推进中！",
+    reply: () => "RoCinNaN-t 之前做过 FDU_ICS_PJ 这种课程项目，现在在期末周（）",
   },
   {
     keys: ["猜题", "猜曲", "做题"],
     reply: () =>
-      "HLQS 喜欢出东方同人曲相关的题目让朋友们猜，很有意思的～",
+      "RoCinNaN-t 喜欢出东方同人曲相关的题目让朋友们猜，很有意思的～",
   },
   {
     keys: ["朋友", "访客", "谁看"],
