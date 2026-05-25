@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="music-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#eef5fb"/>
+      <stop offset="100%" style="stop-color:#c5dff2"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" fill="url(#music-bg)" rx="14"/>
+  <!-- 音符图标 -->
+  <path d="M85 30 L45 38 V85 C45 92 38 95 32 95 C26 95 20 92 20 85 C20 78 26 75 32 75 C35 75 38 76 40 77 V50 L80 42 V75 C80 82 73 85 67 85 C61 85 55 82 55 75 C55 68 61 65 67 65 C70 65 73 66 75 67 V30 Z" fill="#3d6d94" opacity="0.8"/>
+</svg>

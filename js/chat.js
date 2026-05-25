@@ -45,7 +45,7 @@ const keywordRules = [
       "你好呀！欢迎来到 RoCinNaN-t 的小站～我是他的数字分身，想问学习、兴趣或者这个站都可以！",
   },
   {
-    keys: ["名字", "你是谁", "叫什么", "hlqs", "rocinNaN-t"],
+    keys: ["名字", "你是谁", "叫什么", "rocinNaN-t"],
     reply: () =>
       "我是 RoCinNaN-t 的数字分身！真人 RoCinNaN-t 正在学计算机网络和逆向工程，最近在期末复习呢。",
   },
@@ -72,7 +72,7 @@ const keywordRules = [
 const defaultReplies = [
   "嗯…这个问题我还在学习中！你可以试试问网站亮点、学习情况、或者兴趣～",
   "有意思！不过我可能没完全 get 到，换个方式问问看？",
-  "作为本地关键词模式，我主要了解 HLQS 的学习、兴趣和这个站～",
+  "作为本地关键词模式，我主要了解 RoCinNaN-t 的学习、兴趣和这个站～",
 ];
 
 const config = window.SITE_CONFIG || { llm: { preferLlm: false, apiUrl: "/api/chat" } };
@@ -179,7 +179,7 @@ function initChat() {
   appendMessage(
     log,
     "数字分身",
-    "你好！我是 HLQS 的数字分身～\n下方按钮是快捷提问，点击后会像你自己输入一样发送。",
+    "你好！我是 RoCinNaN-t 的数字分身～\n下方按钮是快捷提问，点击后会像你自己输入一样发送。",
     false
   );
 

@@ -56,7 +56,7 @@ function initMusicPlayer() {
   let searchTimer = null;
 
   audio.volume = parseFloat(volume.value);
-  const defaultCover = "assets/avatar.svg";
+  const defaultCover = "assets/music-note.svg";
   coverImg.addEventListener("error", () => {
     coverImg.src = defaultCover;
   });

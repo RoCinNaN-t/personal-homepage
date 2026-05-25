@@ -8,5 +8,5 @@
   <rect width="120" height="120" fill="url(#bg)" rx="4"/>
   <circle cx="60" cy="48" r="22" fill="#fff" opacity="0.9"/>
   <ellipse cx="60" cy="95" rx="32" ry="24" fill="#fff" opacity="0.85"/>
-  <text x="60" y="112" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="14" font-weight="bold" fill="#1a6fb5">HLQS</text>
+  <text x="60" y="112" text-anchor="middle" font-family="Microsoft YaHei, sans-serif" font-size="12" font-weight="bold" fill="#1a6fb5">RoCinNaN-t</text>
 </svg>
