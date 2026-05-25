@@ -11,7 +11,7 @@ const TwinKnowledge = {
   trait: "喜欢有趣的事情",
   contact: "邮箱 pearcehlqs114@gmail.com，GitHub https://github.com/RoCinNaN-t",
   highlights: [
-    "复古 2010 互联网风的清爽蓝色小站",
+    "简约温暖的清爽蓝色小站",
     "有数字分身聊天区，可以随便问我问题",
     "还有背景音乐播放器",
     "个人信息与联系方式一目了然",
